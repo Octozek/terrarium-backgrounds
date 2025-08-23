@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Minimal custom helpers only */
+.dropzone { transition: box-shadow 120ms ease; }
+
+/* fly-to-inspo ghost (keep below header) */
+.fly-ghost {
+  position: fixed;
+  z-index: 20;            /* was 9999; now below header */
+  pointer-events: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 30px rgba(0,0,0,.35);
+  will-change: transform, border-radius;
+}
+
+/* lock scroll without layout shift */
+.no-scroll {
+  overflow: hidden;
+  padding-right: var(--scrollbar-width, 0px);  /* use the width you set in JS */
+}
