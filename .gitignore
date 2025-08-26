@@ -29,3 +29,15 @@ dist-ssr/
 *.sln
 *.sw?
 server/.env
+
+# Ignore Windows device files
+nul
+NUL
+
+# Ignore Windows device files
+nul
+NUL
+
+# Ignore Windows device files
+nul
+NUL

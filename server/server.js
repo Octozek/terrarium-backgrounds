@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "http://127.0.0.1:5173",
+      "https://octozekprops.com",
       process.env.CORS_ORIGIN || "", // e.g. https://octozekprops.com
     ].filter(Boolean),
   })
